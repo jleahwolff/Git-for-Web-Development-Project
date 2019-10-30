@@ -1,6 +1,6 @@
-CODEPEN 
+CODEPEN LINK: https://codepen.io/jleahwolff/pen/XWWedqK?editors=1100
 
-
+QUESTIONS:
     1. What is Semantic HTML? 
         Coding with meaning - giving our code a organization
     2. What is HTML used for? 
@@ -87,8 +87,7 @@ CODEPEN
         5. Submit a pull request
 
 
-Stretch Questions
-
+STRETCH:
     1. What is the difference between an inline element and a block element?
         Block element: displays the full width of the page, Inline: takes up only the width that it needs, and will sit beside other elements with inline. 
     2. What happens when an element is positioned absolutely? 
