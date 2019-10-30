@@ -35,7 +35,7 @@ CODEPEN
     15. How do I reference an id?
         #thisIsAnId {}
     16. What is the difference between a section and a div
-    A section holds HTML tags, and is considered sematic. Div is indicating a division between two sections, and should be used as such. 
+        A section holds HTML tags, and is considered sematic. Div is indicating a division between two sections, and should be used as such. 
     17. What is CSS used for? 
         Cascading Style Sheet: should be used for the appearance of the website you are creating. 
     18. How to we select an element? Example - every h2 on the page
@@ -61,24 +61,48 @@ CODEPEN
         text-transform:uppercase; text-transform:lowercase; text-transform:capitalize;
     28. How do I add a 1px border around my div that is dotted and black?
         div{
-            
+            border:1px dotted black;
         }
     29. How do I select everything on the page? 
+        universal selector
     30. How do I write a comment in CSS?
+        (cmd + /) which is /* for multiline or <!-- for single line.
     31. How do I find out what file I am in, when I am using the command line? 
+        git status
     32. Using the command line - how do I see a list of files/folders in my current folder?
-    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+        ls 
+    33. How do I remove a file via the command line? Why do I have to be careful with this?
+        rm - it will remove it with NO warning. 
     34. Why should I use version control? 
+        It will allow you to edit versions of your repo, and during groups it will allow you to go back and search versions. 
     35. How often should I commit to github?
+        Every 20-30 minutes, depending on how big of a project that is. 
     36. What is the command we would use to push our repo up to github? 
+        git push
     37. Walk me through Lambda's git flow. 
+        1. Fork the assignment
+        2. Collaborate with your TL
+        3. Clone the repo to the terminal
+        4. Create a branch of your own Name
+        5. Submit a pull request
+
 
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
+        Block element: displays the full width of the page, Inline: takes up only the width that it needs, and will sit beside other elements with inline. 
     2. What happens when an element is positioned absolutely? 
-    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+        When it is positioned absolute: that means the element is positioned relative to the closest ancestor, or, it is moves with the body as it scrolls. 
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width?
+        display:inline-block
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+        Examples: Block: <p><h1><form> Inline: <span><input><a> Inline-Block: <button>
     5. In your own words, explain the box model. What is the fix for the box model? 
+        The pattern goes: 
+          |  margin
+          |  border
+          |  padding
+          v  content
+          box-sizing:border-box includes padding and border in the code, so it's response rate is faster compared to the latter.
 
 
